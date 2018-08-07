@@ -94,6 +94,61 @@
     </div>
   </section>
 
+  <!-- Home Icon Section -->
+  <section id="home-icons" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-cog fa-3x mb2"></i>
+          <h3>Turning Gears</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, at.</p>
+        </div>
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-cloud fa-3x mb2"></i>
+          <h3>Sending Data</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, at.</p>
+        </div>
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-cart-plus fa-3x mb2"></i>
+          <h3>Making Money</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, at.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Home Heading Section -->
+  <section id="home-heading" class="p-5">
+    <div class="dark-overlay">
+      <div class="row">
+        <div class="col">
+          <div class="container pt-5">
+            <h1>Are you ready to get started?</h1>
+            <!-- show p on md and up -->
+            <p class="d-none d-md-block">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit tempora dignissimos optio voluptate excepturi ullam
+              aperiam expedita voluptatibus fugiat cum.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- info section -->
+  <section id="info" class="py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center">
+          <h3>Lorem Ipsum</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse maxime possimus minima voluptates voluptas eius ea
+            tenetur, velit molestiae beatae!</p>
+          <a href="#" class="btn btn-outline-danger btn-lg">Learn More</a>
+        </div>
+        <div class="col-md-6">
+          <img src="img/laptop.png" alt="laptop" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
   <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
@@ -104,6 +159,12 @@
   <script>
     // Get the current year for the copyright
     $('#year').text(new Date().getFullYear());
+
+    // configure slider
+    $('.carousel').carousel({
+      interval: 6000,
+      pause: 'hover'
+    });
   </script>
 </body>
 
