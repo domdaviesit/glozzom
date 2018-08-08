@@ -1,3 +1,15 @@
+body {
+  /* to fix scrollbar issues */
+  overflow-x: hidden;
+}
+
+.row {
+  /* to fix scrollbar issues */
+  padding-right: 0px;
+  /* to fix scrollbar issues */
+  margin-right: 0px;
+}
+
 .navbar .nav-link {
   font-size: 14px;
   text-transform: uppercase;
